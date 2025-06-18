@@ -21,7 +21,7 @@ export function LuckyNumbers() {
     {
       number: "33",
       meaning: "Mästerskap & Visdom",
-      tradition: "Kristus ålder - andlig fullkomlighet",
+      tradition: "Mästarnummer - symbol för visdom och mognad",
       color: "card-gradient-neutral",
     },
   ]

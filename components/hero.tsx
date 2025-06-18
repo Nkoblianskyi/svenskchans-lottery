@@ -127,7 +127,7 @@ export function Hero() {
           <div className="flex items-center justify-center gap-2 sm:gap-3 mb-4 sm:mb-6">
             <div className="w-2 sm:w-3 md:w-4 h-2 sm:h-3 md:h-4 bg-green-400 rounded-full animate-pulse shadow-lg shadow-green-400/50"></div>
             <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-white">
-              Svenska Post Kod Lotteriet
+              Svenska PostKodLotteriet
             </h2>
           </div>
 

@@ -5,7 +5,7 @@ export function Dreams() {
     "Hjälpa till välgörenhet",
     "Familjelycka",
     "Spela med vänner",
-    "Torsdag kväll ritual",
+    "Torsdag kväll tradition",
     "Drömmar om förändring",
     "Leva för imorgon",
     "Moment av spänning",

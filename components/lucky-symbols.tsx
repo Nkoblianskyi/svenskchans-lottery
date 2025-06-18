@@ -1,11 +1,20 @@
+import {
+  Clover,
+  Star,
+  SnowflakeIcon as Crystal,
+  VenetianMaskIcon as Mask,
+  Rainbow,
+  FlowerIcon as Butterfly,
+} from "lucide-react"
+
 export function LuckySymbols() {
   const symbols = [
-    { title: "Fyrklöver", description: "Symbol för tur och framgång" },
-    { title: "Stjärnfall", description: "Gör en önskan när stjärnor faller" },
-    { title: "Kristallkula", description: "Blicka in i framtiden" },
-    { title: "Lyckomask", description: "Traditionell symbol för lycka" },
-    { title: "Regnbågens Slut", description: "Där skatten väntar" },
-    { title: "Fjäril", description: "Symbol för transformation" },
+    { title: "Fyrklöver", description: "Symbol för tur och framgång", icon: Clover },
+    { title: "Stjärnfall", description: "Gör en önskan när stjärnor faller", icon: Star },
+    { title: "Kristallkula", description: "Blicka in i framtiden", icon: Crystal },
+    { title: "Lyckomask", description: "Traditionell symbol för lycka", icon: Mask },
+    { title: "Regnbågens Slut", description: "Där skatten väntar", icon: Rainbow },
+    { title: "Fjäril", description: "Symbol för transformation", icon: Butterfly },
   ]
 
   return (
@@ -24,7 +33,7 @@ export function LuckySymbols() {
           {symbols.map((symbol, index) => (
             <div key={index} className="text-center group">
               <div className="w-16 h-16 bg-yellow-400/20 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-yellow-400/30 transition-colors">
-                <div className="w-8 h-8 bg-yellow-400 rounded-full"></div>
+                <symbol.icon className="w-8 h-8 text-yellow-400" />
               </div>
               <h3 className="text-xl font-bold text-white mb-2">{symbol.title}</h3>
               <p className="text-white/70">{symbol.description}</p>
